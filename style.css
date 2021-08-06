@@ -1,220 +1,269 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-#navbar{
+
+#navbar {
     display: flex;
     align-items: center;
+    background-color: royalblue;
 }
-#logo{
+
+#logo {
     margin: 12px 36px;
 
 }
-#logo img
-    {height: 40px;
-    margin: 3px 6px;}
+
+#logo img {
+    height: 40px;
+    margin: 3px 6px;
+}
 
 #navbar ul {
-    display:flex;
+    display: flex;
 }
-#navbar ul li{
+
+#navbar ul li {
     list-style: none;
-     font-size: 1.5rem,
+    font-size: 5px,
 }
-#navbar ul li a{
-    color: forestgreen;
+
+#navbar ul li a {
+    color: azure;
     display: block;
+    font-size: 18px;
     padding: 3px 22px;
     border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
 }
-#navbar::before{
-   content: "";
-   background-color:coral;
+
+#navbar::before {
+    background-color: royalblue;
     position: absolute;
     height: 100%;
-    width:100%;
+    width: 100%;
     z-index: -1;
-    opacity: 0,8;
-    
+    opacity: 0.7;
+
 }
 
-#navbar{
+#navbar {
     position: relative;
 }
-#navbar li a:hover{
-    background-color:cornflowerblue
+
+#navbar li a:hover {
+    background-color: aliceblue;
+    color: royalblue;
 }
-#home{
+
+#home {
     display: flex;
     height: 300px;
     flex-direction: column;
-    padding: 5px,30px;
+    padding: 5px, 30px;
     align-items: center;
 }
-#home::before{
- content: "";
-   background:url(./background.jpg) no-repeat center center/cover;
-    position:absolute;
+
+#home::before {
+    content: "";
+    background: url(./background.jpg) no-repeat center center/cover;
+    position: absolute;
     height: 45%;
-    width:100%;
+    width: 100%;
     z-index: -1;
     opacity: 0.4;
 }
-.prime{
-    font-size:  3.8em;
+
+.prime {
+    font-size: 3.8em;
     padding: 13px;
 }
-.sec{
+
+.sec {
     font-size: 1.8rem;
     padding: 13px;
     text-align: center;
 }
-.prime1{
+
+.prime1 {
     text-align: center;
-    font-size:2.8rem;
+    font-size: 2.8rem;
 }
-#home p{
+
+#home p {
     font-size: 1.8rem;
-    text-align:center;
-    padding:2px 10px;}
-    .bu{
-        padding: 12px;
-        border: 2px solid;
-        margin: 20px;
-        border-radius: 3px ;
-        background-color: chocolate;
-        font-size: 1.3rem;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    
-    }
-    #search{
-        background-color: rgb(121, 159, 196);
-        line-height:2 ;
-        
-    }
-    #search .on{
-        text-align: center;
-         font-weight: bold;
-         font-size: 1.8rem;
-        font-style: italic;
-
-    }
-    #Ty{
-        font-family: monospace;
-
-    }
-    #search .go{
-        font-size: 1.5rem;
-        font-weight: bold;
-        font-style: italic;
-        width: 100%;
-        padding: 9px 20px;
-        margin: 8px;
-        box-sizing: border-box;
-    }
-    #search .dep{
-        font-size: 1.5rem;
-        font-weight: bold;
-        font-style: italic;
-        width: 100%;
-        padding: 9px 20px;
-        margin: 8px;
-    
-    }
-    input[type=text]
-    {
-        width:80%;
-        padding:12px 20px;
-        margin:8px;
-
-    }
-    input[type=date]
-    {
-        width:25%;
-        padding:14px 20px;
-        margin: 8px;
-    }
-    
-    input[type=number]
-    {
-        width:20%;
-        padding:14px 20px;
-        margin: 8px;
-    } 
-    #search{
-        background:url(../tajmahal-4372206_1920.jpg) no-repeat center center/cover;
-        height: 45%;
-        opacity: 0.92;
-    }
-    #taj{
-        background-color: burlywood;
-        opacity:0.6 ;
-    }
-    
-    
-        
-        
-    
-    
-    
-    
-    #destinations{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #destinations img{
-        height: 195px;
-    }
-    #destinations .des{
-        border:3px;
-        border: solid;
-        border-color: blueviolet;
-        padding: 12px;
-        margin:4px;
-        border-radius:35px;
-        background-color:rgb(196, 192, 184)
-    }
-    #dest{
-        content: "";
-        position:relative;
-        height: 60%;
-background: url(../sky-3294543_640.jpg) no-repeat center center/cover   }
-    
-    
-#foot ul li a{
-        color: forestgreen;
-        display: block;
-        padding: 3px 22px;
-        border-radius: 20px;
-        text-decoration: none;
-        font-weight: bold;}
-
-
- #foot ul {
-display:flex;
- }
-        #foot ul li{
-            list-style: none;
-             font-size: 1.5rem,}
-
-             #foot::before{
-                content: "";
-                background-color:black;
-                 position: absolute;
-                 height: 100%;
-                 width:100%;
-                 z-index: -1;
-                 opacity: 0,8;}
- #foot{
- position: relative;
- }
- #foot li {
-display:flex;
- text-align: center;
+    text-align: center;
+    padding: 2px 10px;
 }
-                
-            
+
+.bu {
+    margin-top: 20px;
+    padding: 12px;
+    color: aliceblue;
+    background-color: royalblue;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bu1 {
+    padding: 15px;
+    color: darkblue;
+    background-color: azure;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.services-container {
+    background: url('https://raw.githubusercontent.com/AryanMalhotra631/1stproject/main/tajmahal-4372206_1920.jpg');
+    height: 700px;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    line-height: 2;
+    flex-shrink: 3;
+    justify-content: flex-start;
+
+}
+
+.search .on {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-style: italic;
+
+}
+
+#Ty {
+    font-family: monospace;
+
+}
+
+.go {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 5px;
+    margin: 8px;
+}
+
+.dep {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px;
+
+}
+
+input[type=date] {
+    width: 80%;
+    padding: 14px 20px;
+    margin: 8px;
+}
+
+input[type=number] {
+    width: 80%;
+    padding: 14px 20px;
+    margin: 8px;
+}
+
+
+#taj {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+#destinations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#destinations img {
+    height: 195px;
+}
+
+#destinations .des {
+    border: 3px;
+    border: solid;
+    border-color: blueviolet;
+    padding: 12px;
+    margin: 4px;
+    border-radius: 35px;
+    background-color: rgb(196, 192, 184)
+}
+
+#dest {
+    content: "";
+    position: relative;
+    height: 60%;
+    background: url(../sky-3294543_640.jpg) no-repeat center center/cover
+}
+
+
+#foot ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#foot ul {
+    margin: 29px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot ul li {
+    list-style: none;
+    font-size: 1.5rem,
+}
+
+#foot {
+    height: 100%;
+    text-align: center;
+    background-color: royalblue;
+    position: absolute;
+    height: 11%;
+    width: 100%;
+}
+
+#foot li {
+    display: flex;
+    text-align: center;
+}

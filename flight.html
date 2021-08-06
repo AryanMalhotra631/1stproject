@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,81 +8,94 @@
     <title>Flight Booking</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<nav id="navbar">
-    <div id="logo">
-        <img src="user icon.png" alt="">
-        
-    </div>
-    <ul>
-        <li class="item"><a>Home</a></li>
-        <li class="item"><a>Fares</a></li>
-        <li class="item"><a>Destinations</a></li>
-        <li class="item"><a>Book Ticket</a></li>
-        <li class="item"><a>Sign In</a></li>
-    </ul>
-</nav>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="user icon.png" alt="">
+
+        </div>
+        <ul>
+            <li class="item"><a>Home</a></li>
+            <li class="item"><a>Fares</a></li>
+            <li class="item"><a>Destinations</a></li>
+            <li class="item"><a>Book Ticket</a></li>
+            <li class="item"><a>Sign In</a></li>
+        </ul>
+    </nav>
     <section id="home">
+        <br>
+        <br>
         <h1 class="prime">Welcome to Flight Booking</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sint, quis magni laudantium in consequuntur dolorum cupiditate minima sed doloribus nulla nemo est officia placeat. Optio totam labore voluptatibus architecto20</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sint, quis magni laudantium in consequuntur
+            dolorum cupiditate minima sed doloribus nulla nemo est officia placeat. Optio totam labore voluptatibus
+            architecto20</p>
         <button class="bu">Book Now</button>
     </section>
-    <section class= "services-container">
-        <div id="search">
-        <h1 class="prime1" id="Ty">Search Flights</h1>
-        <div id="taj">
-         <div class="on">
-             
-        One Way<input type="radio" name="flight" id="flight"> &nbsp; &nbsp;
-        Round Trip<input type="radio"name="flight" id="flight">
-        </div>
-        <div class="dep">Departure:<input type="text" name="dep" id="dep">
-            </div>
-           <div class="go">
-                Going To:<input type="text" name="dep" id="dep">
-        </div>
-        <div class="td">
-            Travelling Date<input type="date" name="d" id="d">
-        </div>
-        <div>
-            Number of Passengers<input type="number" name="n" id="n">
-        </div>
-        <button class="b"> Search Flights</button>
-        </div>
-    </div>
-            
-        </section>
-        <section id="dest">
-            <h1 class="prime1">Our Destinations</h1>
-            <div id="destinations">
-                <div class="des">
-                    <img src="../greece-1594689_640.jpg">
-                    <h2 class="sec">Greece</h2>
-
-                </div>
-                <div class="des">
-                    <img src="../santorini-416136_640.jpg">
-                    <h2 class="sec">Santorini</h2>
-                </div>
-                <div class="des">
-                    <img src="../paris-843229_640.jpg">
-                    <h2 class="sec">Paris</h2>
-
-                </div>
-                <div class="des">
-                    <img src="../burj-khalifa-2212978_640.jpg">
-                    <h2 class="sec">Dubai</h2>
-
+    <br>
+    <br>
+    <!-- services -->
+    <section class="services-container">
+        <div class="search">
+            <h1 class="prime1" id="Ty">Search Flights</h1>
+            <hr>
+            <br>
+            <div class="on" class="search">
+                <strong> One Way </strong><input type="radio" name="flight" id="flight"> &nbsp; &nbsp;
+                <strong> Round Trip </strong><input type="radio" name="flight" id="flight">
+                <br>
+                <div id="taj" class="search">
+                    <br>
+                    <div class="dep go search">
+                        <strong>Departure</strong><input type="text" name="dep" id="dep">
+                    </div>
+                    <div class="go search">
+                        <strong>Going To</strong><input type="text" name="dep" id="dep">
+                    </div>
+                    <div class="go search">
+                        <strong>Travelling Date</strong><input type="date" name="d" id="d">
+                    </div>
+                    <div class="go search">
+                        Number of Passengers<input type="number" name="n" id="n">
+                    </div>
+                    <div><button class="bu1"> Search Flights</button></div>
                 </div>
             </div>
-        </section>
-        <footer id="foot">
-            <ul>
+        </div>
+    </section>
+    <!-- services -->
+
+    <section id="dest">
+        <h1 class="prime1">Our Destinations</h1>
+        <div id="destinations">
+            <div class="des">
+                <img src="../greece-1594689_640.jpg">
+                <h2 class="sec">Greece</h2>
+
+            </div>
+            <div class="des">
+                <img src="../santorini-416136_640.jpg">
+                <h2 class="sec">Santorini</h2>
+            </div>
+            <div class="des">
+                <img src="../paris-843229_640.jpg">
+                <h2 class="sec">Paris</h2>
+
+            </div>
+            <div class="des">
+                <img src="../burj-khalifa-2212978_640.jpg">
+                <h2 class="sec">Dubai</h2>
+
+            </div>
+        </div>
+    </section>
+    <footer id="foot">
+        <ul>
             <li class="f"><a>FAQ</a></li>
             <li class="f"><a>Contact Us</a></li>
             <li class="f"><a>Privacy policy</a></li>
             <li class="f"><a>Return Policy</a></li>
-            </ul>
-        </footer>
+        </ul>
+    </footer>
 </body>
 </html>
